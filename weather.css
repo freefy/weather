@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid blue;
+    background-image: url('image/4.jpg');
+    background-size: 100% 100%;
+    min-width: 700px;
+}
+
+.wrapper .in {
+    height: 90px;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrapper .in p {
+    width: 400px;
+    height: 38px;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    font-size: 18px;
+}
+
+.wrapper .in input {
+    width: 400px;
+    height: 38px;
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    font-size: 18px;
+}
+
+.wrapper .search {
+    position: absolute;
+    left: 432px;
+    top: 40px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(91, 89, 233);
+}
+
+.wrapper .search a {
+    display: block;
+    width: 80px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.now {
+    height: 150px;
+    display: none;
+    position: relative;
+    color: rgb(240, 122, 12);
+    font-size: 18px;
+}
+
+.now .city {
+    position: absolute;
+    left: 60px;
+    top: 30px;
+    width: 110px;
+    height: 110px;
+    font-size: 25px;
+    line-height: 110px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.now .right {
+    position: absolute;
+    right: 138px;
+    top: 0;
+}
+
+.now .wendu {
+    position: absolute;
+    right: 60px;
+    top: 30px;
+    width: 110px;
+    height: 110px;
+    font-size: 50px;
+    line-height: 110px;
+    text-align: center;
+}
+
+ul {
+    display: none;
+    overflow: hidden;
+}
+
+ul.list:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul.list li {
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+    background-size: 100% 100%;
+}
+
+ul.list li h2,
+h3 {
+    text-align: center;
+}
+
+ul.list li .left {
+    position: absolute;
+    left: 10px;
+    top: 170px;
+}
+
+ul.list li .right {
+    position: absolute;
+    right: 10px;
+    top: 195px;
+}
+
+ul.list li .mid {
+    position: absolute;
+    left: 50%;
+    bottom: 1px;
+    transform: translateX(-50%);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.warn {
+    display: none;
+    height: 100px;
+    color: rgb(48, 9, 49);
+    font-size: 18px;
+    font-weight: bolder;
+    overflow: hidden;
+}
+
+.warn p {
+    margin-top: 15px;
+    color: rgb(10, 4, 39);
+    text-indent: 2em;
+    font-size: 20px;
+}
